@@ -1,0 +1,6 @@
+NAME
+  InterpolationFilter
+DESCRIPTION
+  Interpolates from an LGL grid to an equally spaced Grid
+REQUIRES_MODULES
+  VTK::IOImage

@@ -1,0 +1,19 @@
+<ServerManagerConfiguration>
+  <ProxyGroup name="filters">
+    <SourceProxy name="vtkInterpolationFilter" class="vtkInterpolationFilter" label="Interpolation Filter">
+      <Documentation long_help="InterpolationFilter Filter" short_help="Interpolation Filter">
+      </Documentation>
+      <InputProperty
+        name="Input"
+        command="SetInputConnection">
+      <ProxyGroupDomain name="groups">
+        <Group name="sources"/>
+        <Group name="filters"/>
+      </ProxyGroupDomain>
+      <DataTypeDomain name="input_type">
+        <DataType value="vtkUnstructuredGrid"/>
+      </DataTypeDomain>
+    </InputProperty>
+  </SourceProxy>
+</ProxyGroup>
+</ServerManagerConfiguration>
